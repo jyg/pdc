@@ -1,4 +1,4 @@
-#N canvas 878 206 843 546 16;
+#N canvas 878 206 912 774 16;
 #X text 307 285 1 select the subpatch to clone;
 #N canvas 0 50 450 300 subpatch 0;
 #X obj 119 33 inlet;
@@ -27,4 +27,5 @@ and outlets~ *, f 68;
 #X text 327 336 immediately below this subpatch;
 #X text 307 395 4 press escape or click in another part of the patch
 ;
+#X text 362 96 _______;
 #X connect 4 0 9 0;
