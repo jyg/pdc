@@ -5,5 +5,4 @@ instructions :
 * open pdc-help.pd
 
 Current limitations :
-- Only non signal inlets and outlets
-- Max number of clones: 8
+- Only non signal inlets and outlets. Use receive~ and throw~ instead.
