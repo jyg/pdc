@@ -7,4 +7,4 @@ instructions :
 Current limitations :
 - Only non signal inlets and outlets. Use receive~ and throw~ if you need to route signals in your subpatches.
 
-<img src="https://raw.githubusercontent.com/jyg/pdc/master/pd-clone.jpg" alt="pd-clone.jpg" width=827 height=502 >
+<img src="https://raw.githubusercontent.com/jyg/pdc/master/pd-clone.jpg" alt="pd-clone.jpg" >
