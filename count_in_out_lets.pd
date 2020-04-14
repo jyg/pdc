@@ -1,0 +1,13 @@
+#N canvas 929 475 450 300 12;
+#X msg 91 76 inlets;
+#X obj 92 112 iemguts/canvasconnections 1;
+#X msg 172 75 outlets;
+#X obj 74 52 t b b;
+#X obj 66 23 r \$1-getconnections;
+#X obj 85 149 s \$1-connections;
+#X connect 0 0 1 0;
+#X connect 1 0 5 0;
+#X connect 2 0 1 0;
+#X connect 3 0 0 0;
+#X connect 3 1 2 0;
+#X connect 4 0 3 0;

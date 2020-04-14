@@ -1,0 +1,30 @@
+#N canvas 878 206 843 546 16;
+#X text 307 285 1 select the subpatch to clone;
+#N canvas 0 50 450 300 subpatch 0;
+#X obj 119 33 inlet;
+#X obj 217 40 inlet;
+#X obj 121 198 outlet;
+#X obj 265 193 outlet;
+#X obj 335 47 inlet;
+#X restore 170 248 pd subpatch;
+#X text 34 250 place the cursor here ->, f 14;
+#X text 311 361 3 type pdc + <number of clones>;
+#X obj 616 140 tgl 20 1 empty empty DEBUG 25 7 0 10 -262144 -1 -1 1
+1;
+#X obj 1 0 cnv 15 800 50 empty empty empty 20 12 0 14 -232576 -66577
+0;
+#X text 9 5 PDC : subpatch cloner;
+#X text 232 92 handles ONLY message inlet / outlet;
+#X text 49 464 * tip : you can use [receive~] and [throw~] objects
+in your subpatch, f 68;
+#X obj 616 165 v debug;
+#X obj 350 7 pdc;
+#X text 16 176 Usage : pdc <nb_of_clones>;
+#X text 13 62 Current limitations : doesn´t handle signal inlets~
+and outlets~ *, f 68;
+#X text 15 133 Needed externals : iemguts lib;
+#X text 308 314 2 create a new object (ctrl+1);
+#X text 327 336 immediately below this subpatch;
+#X text 307 395 4 press escape or click in another part of the patch
+;
+#X connect 4 0 9 0;
