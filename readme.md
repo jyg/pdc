@@ -4,8 +4,7 @@ instructions :
 * put this folder in your 'externals' folder for puredata
 * open pdc-help.pd
 
-Current limitations :
-- Only non signal inlets and outlets. Use receive~ and throw~ if you need to route signals in your subpatches.
+Accepts any number of signal and control inlets / outlets in the subpatch.
 
 
 

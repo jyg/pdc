@@ -1,0 +1,3 @@
+#N canvas 112 426 450 300 12;
+#X text 23 563 As with [clone] \, control outlets forward messages
+with the number of the instance prepended to them.;
