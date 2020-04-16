@@ -4,7 +4,7 @@ instructions :
 * put this folder in your 'externals' folder for puredata
 * open pdc-help.pd
 
-Accepts any number of signal and control inlets / outlets in the subpatch.
+##Accepts any number of signal and control inlets / outlets in the subpatch.
 
 
 
