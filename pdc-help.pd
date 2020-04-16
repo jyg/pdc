@@ -7,7 +7,7 @@
 #X obj 1 0 cnv 15 800 50 empty empty empty 20 12 0 14 -232576 -66577
 0;
 #X obj 616 165 v debug;
-#X text 16 120 Usage : pdc <nb_of_clones>;
+#X text 16 100 Usage : pdc <nb_of_clones>;
 #X text 15 73 Needed externals : iemguts lib;
 #X text 308 254 2 create a new object (ctrl+1);
 #X text 327 276 immediately below this subpatch;
@@ -247,4 +247,5 @@ instances. Signal outlets output the sum of all instances' outputs
 the instance prepended to them.;
 #X text 97 695 <- see help;
 #X text 495 20 https://github.com/jyg/pdc;
+#X text 16 127 Limitations : doesn't work in zoom x2 mode;
 #X connect 3 0 5 0;
