@@ -1,11 +1,11 @@
 # Pure data subpatch cloner
+Using dynamic patching, it creates a subpatch that contains sevreal copies of you original subpatch, wired to inlets and outlets, in a similar way to the [clone] object. Usefull if you quickly need several instances of a subpatch without having to create an extra-abstraction for that.
 
 ### instructions : 
 * put this folder in your 'externals' folder for puredata
 * open pdc-help.pd
 
-### Updated ! Accepts any number of signal and control inlets / outlets in the subpatch.
-
+Update ! Support for both signal or control inlets / outlets in the subpatch.
 
 
 before :
