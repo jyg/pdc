@@ -5,4 +5,4 @@
 #X obj 100 82 inlet;
 #X obj 36 197 outlet~;
 #X obj 128 195 outlet~;
-#X restore 140 247 pd subpatch;
+#X restore 180 187 pd subpatch;
