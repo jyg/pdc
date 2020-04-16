@@ -1,10 +1,10 @@
 # Pure data subpatch cloner
 
-instructions : 
+### instructions : 
 * put this folder in your 'externals' folder for puredata
 * open pdc-help.pd
 
-## Accepts any number of signal and control inlets / outlets in the subpatch.
+### Updated ! Accepts any number of signal and control inlets / outlets in the subpatch.
 
 
 
