@@ -8,11 +8,11 @@
 
 
 
-before (image not updated with new features):
+before :
 
 <img src="https://raw.githubusercontent.com/jyg/pdc/master/pd-clone.jpg" alt="pd-clone.jpg" >
 
 
-after (image not updated with new features):
+after :
 
 <img src="https://raw.githubusercontent.com/jyg/pdc/master/pd-cloned.jpg" alt="pd-cloned.jpg" >
