@@ -2,7 +2,7 @@
 #X text 307 225 1 select the subpatch to clone;
 #X text 34 190 place the cursor here ->, f 14;
 #X text 311 301 3 type pdc + <number of clones>;
-#X obj 616 140 tgl 20 1 empty empty DEBUG 25 7 0 10 -262144 -1 -1 1
+#X obj 616 140 tgl 20 1 empty empty DEBUG 25 7 0 10 -262144 -1 -1 0
 1;
 #X obj 1 0 cnv 15 800 50 empty empty empty 20 12 0 14 -232576 -66577
 0;
@@ -16,7 +16,7 @@
 #X text 17 10 pdc - make multiple copies of a subpatch;
 #X text 703 137 debug mode is for blocking automatic deletion of pdc
 object after operation, f 19;
-#N canvas 0 50 611 370 example 1;
+#N canvas 0 50 611 370 example 0;
 #X obj 194 112 pack f f;
 #X obj 194 141 poly 4 1;
 #X obj 194 200 pack f f f;

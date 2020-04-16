@@ -1,3 +1,8 @@
 #N canvas 112 426 450 300 12;
-#X text 23 563 As with [clone] \, control outlets forward messages
-with the number of the instance prepended to them.;
+#N canvas 0 50 450 300 subpatch 0;
+#X obj 238 200 outlet;
+#X obj 12 82 inlet~;
+#X obj 100 82 inlet;
+#X obj 36 197 outlet~;
+#X obj 128 195 outlet~;
+#X restore 150 267 pd subpatch;
