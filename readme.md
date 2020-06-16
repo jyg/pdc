@@ -1,5 +1,5 @@
 # Pure data subpatch cloner
-Using dynamic patching, it creates a subpatch that contains sevreal copies of you original subpatch, wired to inlets and outlets, in a similar way to the [clone] object. Usefull if you quickly need several instances of a subpatch without having to create an extra-abstraction for that.
+Using dynamic patching, it creates a subpatch that contains several copies of any original subpatch, wired to inlets and outlets, in a similar way to the [clone] object. Usefull if you quickly need several instances of a subpatch without having to create an extra-abstraction for that.
 
 ### instructions : 
 * put this folder in your 'externals' folder for puredata
