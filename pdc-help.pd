@@ -2,11 +2,8 @@
 #X text 307 225 1 select the subpatch to clone;
 #X text 34 190 place the cursor here ->, f 14;
 #X text 311 301 3 type pdc + <number of clones>;
-#X obj 616 140 tgl 20 1 empty empty DEBUG 25 7 0 10 #fcfcfc #000000
-#000000 0 1;
 #X obj 1 0 cnv 15 800 50 empty empty empty 20 12 0 14 #e0c4fc #404040
 0;
-#X obj 616 165 v debug;
 #X text 16 100 Usage : pdc <nb_of_clones>;
 #X text 15 73 Needed externals : iemguts lib;
 #X text 308 254 2 create a new object (ctrl+1);
@@ -14,8 +11,6 @@
 #X text 307 335 4 press escape or click in another part of the patch
 ;
 #X text 17 10 pdc - make multiple copies of a subpatch;
-#X text 703 137 debug mode is for blocking automatic deletion of pdc
-object after operation, f 19;
 #N canvas 0 50 611 370 example 0;
 #X obj 194 112 pack f f;
 #X obj 194 141 poly 4 1;
@@ -248,4 +243,4 @@ the instance prepended to them.;
 #X text 97 695 <- see help;
 #X text 495 20 https://github.com/jyg/pdc;
 #X text 16 127 Limitations : doesn't work in zoom x2 mode;
-#X connect 3 0 5 0;
+#X obj 73 310 pdc;
