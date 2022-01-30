@@ -2,9 +2,9 @@
 #X text 307 225 1 select the subpatch to clone;
 #X text 34 190 place the cursor here ->, f 14;
 #X text 311 301 3 type pdc + <number of clones>;
-#X obj 616 140 tgl 20 1 empty empty DEBUG 25 7 0 10 -262144 -1 -1 0
-1;
-#X obj 1 0 cnv 15 800 50 empty empty empty 20 12 0 14 -232576 -66577
+#X obj 616 140 tgl 20 1 empty empty DEBUG 25 7 0 10 #fcfcfc #000000
+#000000 0 1;
+#X obj 1 0 cnv 15 800 50 empty empty empty 20 12 0 14 #e0c4fc #404040
 0;
 #X obj 616 165 v debug;
 #X text 16 100 Usage : pdc <nb_of_clones>;
@@ -232,7 +232,7 @@ can prepend it with -1 (instead of 'all' \, as with [clone] object).
 , f 62;
 #X text 26 593 Special messages handled by [clone] aren't supported
 (next \, this \, set \, all).;
-#N canvas 0 50 450 300 subpatch 0;
+#N canvas 0 0 450 300 subpatch 0;
 #X obj 238 200 outlet;
 #X obj 12 82 inlet~;
 #X obj 100 82 inlet;
